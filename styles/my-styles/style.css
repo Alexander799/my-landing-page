@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap');
+
+/*navbar section styles*/
+
+.custom-navbar {
+    background-color: #ffffff;
+    border-top: 5px solid #29ca8e;
+    border-bottom: 0;
+    -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.custom-navbar .navbar-brand {
+    color: #2b2929;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.custom-navbar .navbar-nav.navbar-nav-first {
+    margin-left: 8em;
+}
+
+.custom-navbar .navbar-nav.navbar-right li a {
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.custom-navbar .navbar-nav.navbar-right li a .bi {
+    background: #29ca8e;
+    border-radius: 10%;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.custom-navbar .nav li a {
+    line-height: 40px;
+    color: #252424;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.custom-navbar .navbar-nav>li>a:hover,
+.custom-navbar .navbar-nav>li>a:focus {
+    background-color: transparent;
+}
+
+.custom-navbar .nav li a:hover {
+    background-color: #29ca8e;
+    color: #ffffff;
+}
+
+.custom-navbar .nav li:active>a {
+    background-color: #29ca8e;
+    color: #ffffff;
+}
+
+.custom-navbar .nav li a#telephone-lin:hover {
+    color: #252424;
+    background-color: #ffffff;
+}
+
+.custom-navbar .nav li a#telephone-lin:active {
+    color: #252424;
+    background-color: #ffffff;
+}
+
+.custom-navbar .nav li a#telephone-list-item:hover {
+    background-color: #29ca8e;
+    color: #ffffff;
+}
+
+.custom-navbar .nav li a#telephone-list-item:active {
+    background-color: #29ca8e;
+    color: #ffffff;
+}
+
+.custom-navbar .navbar-toggler {
+    border: none;
+    padding-top: 10px;
+    background-color: transparent;
+}
+
+.custom-navbar .navbar-toggler .sendvich {
+    border-color: transparent;
+}
+
+
+/*carousel section styles*/
+
+.home-slider .item {
+    padding: 3em;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 100vh;
+    color: #e6e6e6;
+}
+
+.home-slider .item-first {
+    background-image: url(../../images/carousel-img/teacher1.jpg);
+    background-position: center;
+}
+
+.home-slider .item-first h1 {
+    text-transform: capitalize;
+}
+
+.home-slider .item-second {
+    background-image: url(../../images/carousel-img/teacher2.jpg);
+    background-position: center;
+}
+
+.home-slider .item-third {
+    background-image: url(../../images/carousel-img/teacher3.jpg);
+    background-position: center;
+}
+
+.home-slider .item-third h1 {
+    text-transform: capitalize;
+}
+
+.home-slider .item h3 {
+    margin-bottom: 5vw;
+}
+
+.section-btn {
+    width: 10em;
+    height: 3.12em;
+    margin-bottom: 1em;
+    padding: 0.9em 1.5em;
+    border: 1px solid #ffffff;
+    border-radius: 3.12em;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.section-btn:hover {
+    background-color: #ffffff;
+}
+
+
+/*about company*/
+
+section#about {
+    margin-top: 10vh;
+}
+
+
+/*about-info block*/
+
+.about-info h2 {
+    margin-bottom: 1.7em;
+}
+
+.about-info figure {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-info figure figcaption {
+    margin-left: 2em;
+}
+
+.about-info figure span {
+    margin: auto 0;
+}
+
+.about-info figure span svg {
+    padding: 0.7em;
+    border-radius: 2.6em;
+    color: #ffffff;
+    background: #29ca8e;
+}
+
+
+/*block userinput */
+
+.entry-form {
+    margin-top: 10vh;
+    background: #252020;
+    border-radius: 100%;
+    text-align: center;
+    padding: 6em;
+    width: 450px;
+    height: 450px;
+}
+
+.entry-form h2 {
+    color: #ffffff;
+    margin: 0;
+}
+
+.entry-form .form-control {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    box-shadow: none;
+    height: 45px;
+    margin: 10px 0;
+}
+
+.entry-form .submit-btn {
+    background: #ffffff;
+    border-radius: 50px;
+    border: 0;
+    color: #252020;
+    width: 50%;
+    height: 50px;
+    margin: 30px auto;
+    margin-bottom: 10px;
+}
+
+.entry-form .submit-btn:hover {
+    background: #3f51b5;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+    #home h3 {
+        font-size: 14px;
+    }
+    .entry-form {
+        border-radius: 0;
+        padding: 2em;
+        max-width: 100%;
+        max-height: 100%;
+        width: inherit;
+        height: inherit;
+    }
+}
+
+
+/*team block*/
+
+.section-title {
+    margin-top: 65px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.section-title h2 {
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.social-icon li a {
+    border-radius: 100px;
+    color: #29ca8e;
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+.social-icon li a:hover {
+    background: #29ca8e;
+    color: #ffffff;
+}
+
+
+/*courses block*/
+
+.courses-thumb {
+    width: 100%;
+}
+
+.courses-top {
+    position: relative;
+}
+
+.courses-image {
+    background: linear-gradient(to right, #202020, #101010);
+}
+
+.courses-date {
+    background: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.6));
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 25px;
+}

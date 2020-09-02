@@ -13,7 +13,7 @@ $(document).ready(function() {
         animateOut: 'fadeOut',
         loop: true,
         autoplayHoverPause: false,
-        autoplay: false,
+        autoplay: true,
         smartSpeed: 1000,
         dots: false,
         nav: true,

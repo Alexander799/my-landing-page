@@ -309,7 +309,7 @@ section#about {
 }
 
 .courses-image img {
-    height: 250px;
+    height: 225px;
 }
 
 .courses-date {
@@ -337,7 +337,7 @@ section#about {
 }
 
 .courses-detail {
-    padding: 25px 25px 15px 25px;
+    padding: 10px 20px;
 }
 
 .courses-detail h3 {
@@ -389,6 +389,7 @@ section#about {
 .courses-detail h3,
 .courses-detail p {
     min-height: 70px;
+    margin-bottom: 0.5rem;
 }
 
 .owl-nav .fas {

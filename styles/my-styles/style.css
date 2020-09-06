@@ -404,3 +404,24 @@ section#about {
     transition: 200ms ease-in;
     background-color: #a8a8a8;
 }
+
+
+/*TESTIMOTIONAL block*/
+
+.tst-image,
+.tst-author {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.tst-image img {
+    border-radius: 50px;
+    width: 60px !important;
+    height: 60px;
+}
+
+.tst-rating .fas {
+    color: #3f51b5;
+}

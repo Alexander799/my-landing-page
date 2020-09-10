@@ -190,6 +190,7 @@ section#about {
 
 .entry-form {
     margin-top: 10vh;
+    margin-bottom: 10vh;
     background: #252020;
     border-radius: 100%;
     text-align: center;
@@ -229,15 +230,13 @@ section#about {
     color: #ffffff;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 991px) {
     h1 {
         font-size: 2em;
     }
-
     #home h3 {
         font-size: 14px;
     }
-
     .entry-form {
         border-radius: 0;
         padding: 2em;
@@ -442,6 +441,7 @@ textarea {
 }
 
 #contact-form input[type='submit'] {
+    min-width: 150px;
     margin-top: 10px;
     border-radius: 50px;
     border: 1px solid transparent;

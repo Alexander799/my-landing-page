@@ -550,3 +550,20 @@ small {
     border: 1px solid #ffffff;
     border-radius: 50px;
 }
+
+#feature,
+#about,
+#team,
+#courses,
+#reviews,
+#map-block,
+#footer {
+    padding: 100px 0;
+}
+
+#team,
+#testimonial {
+    text-align: center;
+    height: 100vh;
+    background: #f9f9f9;
+}
